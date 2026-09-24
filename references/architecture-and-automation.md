@@ -48,6 +48,7 @@ Encode these as deterministic text transforms over the `content/*.md` files. Kee
 A localhost dashboard is a strong addition once the vault is producing daily. It reads the vault (action items, drafts), the fetch heartbeats, and job health, and writes back only on a button click (then commits and syncs). It is where the content pipeline lives: draft, an explicit accept gate, polish, atomize, then a one-click unscheduled draft into the publishing tool.
 
 Two design choices worth copying:
+- **Ask for the outcome at the moment of closing.** When an item is marked done, offer one optional line: what happened? Write it as `- **Outcome:** ...` under the newest copy of the item (or into today's file if that copy is older than the brief's scan window). This is what feeds the promote-outcomes loop; without the prompt, nobody writes the line and the loop never fires.
 - **Derive state, do not store it.** Compute a card's stage from files on disk at read time so the UI can never drift from the truth in the vault.
 - **Generation on a flat-rate login, not a metered key.** If the platform allows a headless CLI authenticated by a subscription login, drafting and rewriting cost no per-token billing, which is what makes it sane to expand and polish freely.
 

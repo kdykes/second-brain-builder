@@ -53,7 +53,7 @@ This is distilled from a system that has run every day since April 2026. A few t
 
 - **Docs drift.** The schema once kept documenting old cron times long after the jobs moved. A system that writes its own docs still needs a human to catch this.
 - **Scheduled jobs run late.** Free cron hosts can start jobs hours after the scheduled time. Leave buffer, and don't promise anyone a 6 a.m. brief.
-- **Some loops only pay off if you use them.** The "promote outcomes" loop turns done items into a record of what actually worked, but only if you write the outcome line. It's in the contract because it's worth it. Whether you use it is up to you.
+- **Loops only work if the interface feeds them.** The "promote outcomes" loop turns done items into a record of what actually worked. Ours sat unused for five months, because closing an item never asked what happened. One question on the Done button fixed it. Put the ask where the action happens.
 - **Privacy is a standing tax.** Transcripts and notes hold names and internal detail. Anything that leaves the vault gets scrubbed by a human first. The system does not know what is confidential.
 
 ## Credits
