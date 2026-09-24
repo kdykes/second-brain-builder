@@ -64,7 +64,7 @@ This is distilled from a system that has run every day since April 2026. A few t
 
 ## Want it built for you?
 
-This is the pattern behind how we run [Sombra](https://getsombra.com): two people, multiplied. More on how I work at [kdykes.com](https://kdykes.com).
+This is the pattern behind how we run [Sombra](https://getsombra.com): two people, multiplied. The full teardown, with every diagram, is at [kdykes.com/notes/company-brain](https://kdykes.com/notes/company-brain/). More on how I work at [kdykes.com](https://kdykes.com).
 
 If you'd rather have it built into your business, with your tools, your core truth and private access for your team, [book a free Client Journey Review](https://cal.com/kdykes/conversational-workflow-review).
 
